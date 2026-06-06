@@ -19,7 +19,7 @@ Keywords:
 triathlon, ironman, cycling, running, swimming, pace calculator, power zones, FTP, race planner, tire pressure, gear ratio, bike fit, training zones, triathlete
 
 Support URL: https://flying-riceball.com
-Privacy Policy URL: https://www.termsfeed.com/live/bb54c7ff-134d-4808-bdc3-4906ff4546db
+Privacy Policy URL: https://www.termsfeed.com/live/99fbb1bf-985b-4776-99dc-6e0cfa9d48d1
 
 ---
 
@@ -27,3 +27,4 @@ When testing on Android:
 
 export JAVA_HOME=/opt/homebrew/opt/openjdk@17
 npx expo run:android
+android key store PW: triathlon2024
