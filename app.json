@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Triathlon Tools",
+    "slug": "triathlon-tools",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.flying-riceball.triathlon-tools"
+    },
+    "android": {
+      "package": "com.flyingriceball.triathlontools",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sharing",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Used by the Stem Align tool to overlay a crosshair on your bike stem via the rear camera."
+        }
+      ]
+    ]
+  }
+}
