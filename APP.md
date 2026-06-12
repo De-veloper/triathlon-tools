@@ -28,3 +28,5 @@ When testing on Android:
 export JAVA_HOME=/opt/homebrew/opt/openjdk@17
 npx expo run:android
 android key store PW: triathlon2024
+
+npx expo run:ios --device

@@ -11,6 +11,8 @@ import ClimbingCalculatorScreen from './src/screens/ClimbingCalculatorScreen';
 import TirePressureScreen from './src/screens/TirePressureScreen';
 import GearRatioScreen from './src/screens/GearRatioScreen';
 import StemAlignScreen from './src/screens/StemAlignScreen';
+import BikeTimePredictorScreen from './src/screens/BikeTimePredictorScreen';
+import RunTimePredictorScreen from './src/screens/RunTimePredictorScreen';
 
 export type RootStackParamList = {
   Home: undefined;
@@ -22,6 +24,8 @@ export type RootStackParamList = {
   'tire-pressure': undefined;
   'gear-ratio': undefined;
   'stem-align': undefined;
+  'bike-time-predictor': undefined;
+  'run-time-predictor': undefined;
 };
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -83,6 +87,16 @@ export default function App() {
             name="stem-align"
             component={StemAlignScreen}
             options={{ title: 'Stem Align', headerStyle: { backgroundColor: '#111' }, headerTitleStyle: { color: '#fff' }, headerTintColor: '#aaa' }}
+          />
+          <Stack.Screen
+            name="bike-time-predictor"
+            component={BikeTimePredictorScreen}
+            options={{ title: 'Bike Time Predictor' }}
+          />
+          <Stack.Screen
+            name="run-time-predictor"
+            component={RunTimePredictorScreen}
+            options={{ title: 'Run Time Predictor' }}
           />
         </Stack.Navigator>
       </NavigationContainer>

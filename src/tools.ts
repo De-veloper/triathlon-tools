@@ -63,4 +63,18 @@ export const TOOLS: Tool[] = [
     icon: '🚲',
     color: '#0d9488',
   },
+  {
+    id: 'bike-time-predictor',
+    name: 'Bike Time Predictor',
+    description: 'Estimate your bike split from a GPX course file and your FTP.',
+    icon: '🗺️',
+    color: '#7c3aed',
+  },
+  {
+    id: 'run-time-predictor',
+    name: 'Run Time Predictor',
+    description: 'Estimate your run split from threshold pace with elevation adjustment.',
+    icon: '🏃',
+    color: '#16a34a',
+  },
 ];
