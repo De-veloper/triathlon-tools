@@ -30,3 +30,6 @@ npx expo run:android
 android key store PW: triathlon2024
 
 npx expo run:ios --device
+
+npx expo prebuild --platform android
+cd android && ./gradlew bundleRelease
