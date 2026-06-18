@@ -13,6 +13,7 @@ import GearRatioScreen from './src/screens/GearRatioScreen';
 import StemAlignScreen from './src/screens/StemAlignScreen';
 import BikeTimePredictorScreen from './src/screens/BikeTimePredictorScreen';
 import RunTimePredictorScreen from './src/screens/RunTimePredictorScreen';
+import RaceReviewScreen from './src/screens/RaceReviewScreen';
 
 export type RootStackParamList = {
   Home: undefined;
@@ -26,6 +27,7 @@ export type RootStackParamList = {
   'stem-align': undefined;
   'bike-time-predictor': undefined;
   'run-time-predictor': undefined;
+  'race-review': undefined;
 };
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -97,6 +99,11 @@ export default function App() {
             name="run-time-predictor"
             component={RunTimePredictorScreen}
             options={{ title: 'Run Time Predictor' }}
+          />
+          <Stack.Screen
+            name="race-review"
+            component={RaceReviewScreen}
+            options={{ title: 'Race Review' }}
           />
         </Stack.Navigator>
       </NavigationContainer>

@@ -77,4 +77,11 @@ export const TOOLS: Tool[] = [
     icon: '🏃',
     color: '#16a34a',
   },
+  {
+    id: 'race-review',
+    name: 'Race Review',
+    description: 'Read race reviews and reports on the blog.',
+    icon: '📝',
+    color: '#e11d48',
+  },
 ];
